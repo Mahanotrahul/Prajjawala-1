@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".BlankFragment4">
+
+
+    <ImageView
+        android:id="@+id/iv2"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_centerInParent="true"
+        android:src="@drawable/subscription"
+        android:contentDescription="@string/app_name"/>
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/iv2"
+        android:layout_centerHorizontal="true">
+        <TextView
+            android:id="@+id/tv24"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="10dp"
+            android:text="@string/your_subscription"
+            android:textColor="#f4f681"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            app:fontFamily="@font/basic"/>
+        <TextView
+            android:id="@+id/tv25"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/tv24"
+            android:text="@string/ends_on"
+            android:textColor="#f4f681"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            app:fontFamily="@font/basic"/>
+        <TextView
+            android:id="@+id/tv26"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@+id/tv25"
+            android:layout_toEndOf="@+id/tv25"
+            android:layout_alignBottom="@+id/tv25"
+            android:text="@string/dd_mm_yy"
+            android:textColor="#ffffff"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            app:fontFamily="@font/basic"/>
+
+    </RelativeLayout>
+
+    <TextView
+        android:id="@+id/tv29"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/iv2"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="35dp"
+        android:text="@string/subscription"
+        android:textColor="#f4f681"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        android:textAllCaps="true"
+        app:fontFamily="@font/basic"/>
+
+
+</RelativeLayout>

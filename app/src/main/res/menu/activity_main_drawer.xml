@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item android:id="@+id/nav_home"
+            android:icon="@drawable/ic_home_black_24dp"
+            android:title="@string/home" />
+        <item android:id="@+id/nav_profile"
+            android:icon="@drawable/ic_person_black_24dp"
+            android:title="@string/profile" />
+        <item
+            android:id="@+id/nav_recharge"
+            android:icon="@drawable/ic_action_rupee"
+            android:title="@string/recharge_payments" />
+        <item
+            android:id="@+id/nav_gas"
+            android:icon="@drawable/ic_action_name"
+            android:title="@string/gas_leaks" />
+        <item
+            android:id="@+id/nav_subs"
+            android:icon="@drawable/ic_timelapse_black_24dp"
+            android:title="@string/subscription" />
+        <item
+            android:id="@+id/nav_tamper"
+            android:icon="@drawable/ic_warning_black"
+            android:title="@string/tampering" />
+        <item
+            android:id="@+id/nav_usage"
+            android:icon="@drawable/ic_timeline_black_24dp"
+            android:title="@string/usage_stats" />
+        <item
+            android:id="@+id/nav_maps"
+            android:icon="@drawable/ic_map_black_24dp"
+            android:title="@string/maps" />
+    </group>
+
+    <item android:title="@string/communicate">
+        <menu>
+            <item
+                android:id="@+id/nav_dealer"
+                android:icon="@drawable/ic_contact_phone_black"
+                android:title="@string/contact_dealer" />
+            <item
+                android:id="@+id/nav_customercare"
+                android:icon="@drawable/ic_import_contacts_black_24dp"
+                android:title="@string/contact_prajjwala_customer_care" />
+        </menu>
+    </item>
+        <item
+            android:id="@+id/nav_log_out"
+            android:icon="@drawable/ic_exit_to_app_black_24dp"
+            android:title="Log Out"/>
+
+</menu>
