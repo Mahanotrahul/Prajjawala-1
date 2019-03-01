@@ -65,6 +65,9 @@ attr actionOverflowMenuStyle
 attr actionProviderClass
 attr actionViewClass
 attr activityChooserViewStyle
+attr actualImageResource
+attr actualImageScaleType
+attr actualImageUri
 attr alertDialogButtonGroupStyle
 attr alertDialogCenterButtons
 attr alertDialogStyle
@@ -82,6 +85,7 @@ attr autoSizePresetSizes
 attr autoSizeStepGranularity
 attr autoSizeTextType
 attr background
+attr backgroundImage
 attr backgroundSplit
 attr backgroundStacked
 attr backgroundTint
@@ -252,6 +256,9 @@ attr fabCradleRoundedCornerRadius
 attr fabCradleVerticalOffset
 attr fabCustomSize
 attr fabSize
+attr fadeDuration
+attr failureImage
+attr failureImageScaleType
 attr fastScrollEnabled
 attr fastScrollHorizontalThumbDrawable
 attr fastScrollHorizontalTrackDrawable
@@ -416,6 +423,7 @@ attr navigationMode
 attr navigationViewStyle
 attr numericModifiers
 attr overlapAnchor
+attr overlayImage
 attr paddingBottomNoButtons
 attr paddingEnd
 attr paddingStart
@@ -428,11 +436,17 @@ attr passwordToggleDrawable
 attr passwordToggleEnabled
 attr passwordToggleTint
 attr passwordToggleTintMode
+attr placeholderImage
+attr placeholderImageScaleType
 attr popupMenuStyle
 attr popupTheme
 attr popupWindowStyle
 attr preserveIconSpacing
+attr pressedStateOverlayImage
 attr pressedTranslationZ
+attr progressBarAutoRotateInterval
+attr progressBarImage
+attr progressBarImageScaleType
 attr progressBarPadding
 attr progressBarStyle
 attr queryBackground
@@ -441,8 +455,24 @@ attr radioButtonStyle
 attr ratingBarStyle
 attr ratingBarStyleIndicator
 attr ratingBarStyleSmall
+attr retryImage
+attr retryImageScaleType
 attr reverseLayout
 attr rippleColor
+attr roundAsCircle
+attr roundBottomEnd
+attr roundBottomLeft
+attr roundBottomRight
+attr roundBottomStart
+attr roundTopEnd
+attr roundTopLeft
+attr roundTopRight
+attr roundTopStart
+attr roundWithOverlayColor
+attr roundedCornerRadius
+attr roundingBorderColor
+attr roundingBorderPadding
+attr roundingBorderWidth
 attr scopeUris
 attr scrimAnimationDuration
 attr scrimBackground
@@ -584,6 +614,7 @@ attr uiZoomControls
 attr uiZoomGestures
 attr useCompatPadding
 attr useViewLifecycle
+attr viewAspectRatio
 attr viewInflaterClass
 attr voiceIcon
 attr windowActionBar
@@ -1197,6 +1228,8 @@ id bottom
 id buttonPanel
 id cancel_action
 id center
+id centerCrop
+id centerInside
 id center_horizontal
 id center_vertical
 id chains
@@ -1241,8 +1274,14 @@ id fill
 id fill_horizontal
 id fill_vertical
 id filled
+id fitBottomStart
+id fitCenter
+id fitEnd
+id fitStart
+id fitXY
 id fixed
 id fl0
+id focusCrop
 id forever
 id forgotPassword
 id fragment
@@ -1282,6 +1321,7 @@ id listMode
 id list_item
 id login_button
 id login_layout
+id logo
 id map
 id map_layout
 id masked
@@ -2263,6 +2303,7 @@ styleable FlowLayout itemSpacing lineSpacing
 styleable FontFamily fontProviderAuthority fontProviderCerts fontProviderFetchStrategy fontProviderFetchTimeout fontProviderPackage fontProviderQuery
 styleable FontFamilyFont android_font android_fontWeight android_fontStyle android_ttcIndex android_fontVariationSettings font fontStyle fontVariationSettings fontWeight ttcIndex
 styleable ForegroundLinearLayout android_foreground android_foregroundGravity foregroundInsidePadding
+styleable GenericDraweeHierarchy actualImageScaleType backgroundImage fadeDuration failureImage failureImageScaleType overlayImage placeholderImage placeholderImageScaleType pressedStateOverlayImage progressBarAutoRotateInterval progressBarImage progressBarImageScaleType retryImage retryImageScaleType roundAsCircle roundBottomEnd roundBottomLeft roundBottomRight roundBottomStart roundTopEnd roundTopLeft roundTopRight roundTopStart roundWithOverlayColor roundedCornerRadius roundingBorderColor roundingBorderPadding roundingBorderWidth viewAspectRatio
 styleable GradientColor android_startColor android_endColor android_type android_centerX android_centerY android_gradientRadius android_tileMode android_centerColor android_startX android_startY android_endX android_endY
 styleable GradientColorItem android_color android_offset
 styleable LinearConstraintLayout android_orientation
@@ -2286,6 +2327,7 @@ styleable ScrimInsetsFrameLayout insetForeground
 styleable ScrollingViewBehavior_Layout behavior_overlapTop
 styleable SearchView android_focusable android_maxWidth android_inputType android_imeOptions closeIcon commitIcon defaultQueryHint goIcon iconifiedByDefault layout queryBackground queryHint searchHintIcon searchIcon submitBackground suggestionRowLayout voiceIcon
 styleable SignInButton buttonSize colorScheme scopeUris
+styleable SimpleDraweeView actualImageResource actualImageScaleType actualImageUri backgroundImage fadeDuration failureImage failureImageScaleType overlayImage placeholderImage placeholderImageScaleType pressedStateOverlayImage progressBarAutoRotateInterval progressBarImage progressBarImageScaleType retryImage retryImageScaleType roundAsCircle roundBottomEnd roundBottomLeft roundBottomRight roundBottomStart roundTopEnd roundTopLeft roundTopRight roundTopStart roundWithOverlayColor roundedCornerRadius roundingBorderColor roundingBorderPadding roundingBorderWidth viewAspectRatio
 styleable Snackbar snackbarButtonStyle snackbarStyle
 styleable SnackbarLayout android_maxWidth elevation maxActionInlineWidth
 styleable Spinner android_entries android_popupBackground android_prompt android_dropDownWidth popupTheme

@@ -1,19 +1,22 @@
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
-xmlns:tools="http://schemas.android.com/tools"
-android:layout_width="fill_parent"
-android:layout_height="fill_parent"
-android:padding="20dp"
-android:id="@+id/bigframe"
-android:background="@drawable/gradient_color">
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:padding="20dp"
+    android:id="@+id/bigframe"
+    android:background="@drawable/gradient_color">
 
-<ImageView
-    android:layout_width="100dp"
-    android:layout_height="100dp"
-    android:src="@drawable/prajjawala"
-    android:layout_centerHorizontal="true"
-    android:layout_above="@+id/login_layout"
-    android:layout_marginBottom="40dp"/>
+
+    <ImageView
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:src="@drawable/prajjawala"
+        android:layout_centerHorizontal="true"
+        android:layout_above="@+id/login_layout"
+        android:layout_marginBottom="40dp"
+        android:id="@+id/logo"/>
 
 
 <LinearLayout

@@ -12,13 +12,13 @@ public final class R {
     public static final class attr {
         private attr() {}
 
-        public static final int border_color = 0x7f040041;
-        public static final int border_width = 0x7f040042;
+        public static final int border_color = 0x7f040045;
+        public static final int border_width = 0x7f040046;
     }
     public static final class styleable {
         private styleable() {}
 
-        public static final int[] CircleImageView = { 0x7f040041, 0x7f040042 };
+        public static final int[] CircleImageView = { 0x7f040045, 0x7f040046 };
         public static final int CircleImageView_border_color = 0;
         public static final int CircleImageView_border_width = 1;
     }

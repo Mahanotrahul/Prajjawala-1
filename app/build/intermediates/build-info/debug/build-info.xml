@@ -1,83 +1,111 @@
 <?xml version="1.0" encoding="utf-8"?>
 <instant-run
-    abi="x86"
-    api-level="28"
-    build-mode="HOT_WARM"
-    density="420dpi"
+    abi="arm64-v8a,armeabi-v7a,armeabi"
+    api-level="27"
+    build-mode="FULL"
+    density="xxhdpi"
     format="10"
     plugin-version="3.3.0"
-    timestamp="1551445054191"
-    token="7853131819717428250"
-    verifier="COMPATIBLE" >
+    timestamp="1551469339437"
+    token="-4251239356594449044"
+    verifier="FULL_BUILD_REQUESTED" >
 
     <task
         name="javac"
-        duration="227" />
+        duration="567" />
     <task
         name="instant-run-dex"
-        duration="50" />
+        duration="0" />
     <task
         name="instant-run-transform"
-        duration="346" />
+        duration="56" />
     <task
         name="verifier"
-        duration="93" />
+        duration="14" />
 
     <artifact
-        location="D:\Vasitars_Prajjawala\Prajjawala\Smart India Hackathon\Prajjwala\app\build\intermediates\reload-dex\debug\classes.dex"
-        type="RELOAD_DEX" />
+        location="D:\AndroidProjects\Projects\Prajjawala-1\app\build\intermediates\resources\instant-run\debug\resources-debug.apk"
+        type="SPLIT" />
+    <artifact
+        location="D:\AndroidProjects\Projects\Prajjawala-1\app\build\intermediates\split-apk\debug\slices\slice_7.apk"
+        type="SPLIT" />
+    <artifact
+        location="D:\AndroidProjects\Projects\Prajjawala-1\app\build\intermediates\split-apk\debug\slices\slice_4.apk"
+        type="SPLIT" />
+    <artifact
+        location="D:\AndroidProjects\Projects\Prajjawala-1\app\build\intermediates\split-apk\debug\slices\slice_9.apk"
+        type="SPLIT" />
+    <artifact
+        location="D:\AndroidProjects\Projects\Prajjawala-1\app\build\intermediates\split-apk\debug\slices\slice_8.apk"
+        type="SPLIT" />
+    <artifact
+        location="D:\AndroidProjects\Projects\Prajjawala-1\app\build\intermediates\split-apk\debug\dep\dependencies.apk"
+        type="SPLIT" />
+    <artifact
+        location="D:\AndroidProjects\Projects\Prajjawala-1\app\build\intermediates\split-apk\debug\slices\slice_1.apk"
+        type="SPLIT" />
+    <artifact
+        location="D:\AndroidProjects\Projects\Prajjawala-1\app\build\intermediates\split-apk\debug\slices\slice_6.apk"
+        type="SPLIT" />
+    <artifact
+        location="D:\AndroidProjects\Projects\Prajjawala-1\app\build\intermediates\split-apk\debug\slices\slice_5.apk"
+        type="SPLIT" />
+    <artifact
+        location="D:\AndroidProjects\Projects\Prajjawala-1\app\build\intermediates\split-apk\debug\slices\slice_0.apk"
+        type="SPLIT" />
+    <artifact
+        location="D:\AndroidProjects\Projects\Prajjawala-1\app\build\intermediates\split-apk\debug\slices\slice_3.apk"
+        type="SPLIT" />
+    <artifact
+        location="D:\AndroidProjects\Projects\Prajjawala-1\app\build\intermediates\split-apk\debug\slices\slice_2.apk"
+        type="SPLIT" />
+    <artifact
+        location="D:\AndroidProjects\Projects\Prajjawala-1\app\build\intermediates\instant-run-apk\debug\app-debug.apk"
+        type="SPLIT_MAIN" />
 
     <build
         build-mode="FULL"
-        timestamp="1551444968105"
+        timestamp="1551469339437"
         verifier="FULL_BUILD_REQUESTED" >
         <artifact
-            location="D:\Vasitars_Prajjawala\Prajjawala\Smart India Hackathon\Prajjwala\app\build\intermediates\split-apk\debug\slices\slice_6.apk"
+            location="D:\AndroidProjects\Projects\Prajjawala-1\app\build\intermediates\resources\instant-run\debug\resources-debug.apk"
             type="SPLIT" />
         <artifact
-            location="D:\Vasitars_Prajjawala\Prajjawala\Smart India Hackathon\Prajjwala\app\build\intermediates\split-apk\debug\slices\slice_1.apk"
+            location="D:\AndroidProjects\Projects\Prajjawala-1\app\build\intermediates\split-apk\debug\slices\slice_7.apk"
             type="SPLIT" />
         <artifact
-            location="D:\Vasitars_Prajjawala\Prajjawala\Smart India Hackathon\Prajjwala\app\build\intermediates\resources\instant-run\debug\resources-debug.apk"
+            location="D:\AndroidProjects\Projects\Prajjawala-1\app\build\intermediates\split-apk\debug\slices\slice_4.apk"
             type="SPLIT" />
         <artifact
-            location="D:\Vasitars_Prajjawala\Prajjawala\Smart India Hackathon\Prajjwala\app\build\intermediates\split-apk\debug\slices\slice_5.apk"
+            location="D:\AndroidProjects\Projects\Prajjawala-1\app\build\intermediates\split-apk\debug\slices\slice_9.apk"
             type="SPLIT" />
         <artifact
-            location="D:\Vasitars_Prajjawala\Prajjawala\Smart India Hackathon\Prajjwala\app\build\intermediates\split-apk\debug\slices\slice_8.apk"
+            location="D:\AndroidProjects\Projects\Prajjawala-1\app\build\intermediates\split-apk\debug\slices\slice_8.apk"
             type="SPLIT" />
         <artifact
-            location="D:\Vasitars_Prajjawala\Prajjawala\Smart India Hackathon\Prajjwala\app\build\intermediates\split-apk\debug\slices\slice_7.apk"
+            location="D:\AndroidProjects\Projects\Prajjawala-1\app\build\intermediates\split-apk\debug\dep\dependencies.apk"
             type="SPLIT" />
         <artifact
-            location="D:\Vasitars_Prajjawala\Prajjawala\Smart India Hackathon\Prajjwala\app\build\intermediates\split-apk\debug\slices\slice_9.apk"
+            location="D:\AndroidProjects\Projects\Prajjawala-1\app\build\intermediates\split-apk\debug\slices\slice_1.apk"
             type="SPLIT" />
         <artifact
-            location="D:\Vasitars_Prajjawala\Prajjawala\Smart India Hackathon\Prajjwala\app\build\intermediates\split-apk\debug\slices\slice_4.apk"
+            location="D:\AndroidProjects\Projects\Prajjawala-1\app\build\intermediates\split-apk\debug\slices\slice_6.apk"
             type="SPLIT" />
         <artifact
-            location="D:\Vasitars_Prajjawala\Prajjawala\Smart India Hackathon\Prajjwala\app\build\intermediates\split-apk\debug\slices\slice_3.apk"
+            location="D:\AndroidProjects\Projects\Prajjawala-1\app\build\intermediates\split-apk\debug\slices\slice_5.apk"
             type="SPLIT" />
         <artifact
-            location="D:\Vasitars_Prajjawala\Prajjawala\Smart India Hackathon\Prajjwala\app\build\intermediates\split-apk\debug\slices\slice_2.apk"
+            location="D:\AndroidProjects\Projects\Prajjawala-1\app\build\intermediates\split-apk\debug\slices\slice_0.apk"
             type="SPLIT" />
         <artifact
-            location="D:\Vasitars_Prajjawala\Prajjawala\Smart India Hackathon\Prajjwala\app\build\intermediates\split-apk\debug\dep\dependencies.apk"
+            location="D:\AndroidProjects\Projects\Prajjawala-1\app\build\intermediates\split-apk\debug\slices\slice_3.apk"
             type="SPLIT" />
         <artifact
-            location="D:\Vasitars_Prajjawala\Prajjawala\Smart India Hackathon\Prajjwala\app\build\intermediates\split-apk\debug\slices\slice_0.apk"
+            location="D:\AndroidProjects\Projects\Prajjawala-1\app\build\intermediates\split-apk\debug\slices\slice_2.apk"
             type="SPLIT" />
         <artifact
-            location="D:\Vasitars_Prajjawala\Prajjawala\Smart India Hackathon\Prajjwala\app\build\intermediates\instant-run-apk\debug\app-debug.apk"
+            location="D:\AndroidProjects\Projects\Prajjawala-1\app\build\intermediates\instant-run-apk\debug\app-debug.apk"
             type="SPLIT_MAIN" />
-    </build>
-    <build
-        build-mode="HOT_WARM"
-        timestamp="1551445054191"
-        verifier="COMPATIBLE" >
-        <artifact
-            location="D:\Vasitars_Prajjawala\Prajjawala\Smart India Hackathon\Prajjwala\app\build\intermediates\reload-dex\debug\classes.dex"
-            type="RELOAD_DEX" />
     </build>
 
 </instant-run>

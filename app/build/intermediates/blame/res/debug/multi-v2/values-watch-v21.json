@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "D:\\Vasitars_Prajjawala\\Prajjawala\\Smart India Hackathon\\Prajjwala\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-watch-v21\\values-watch-v21.xml",
+            "outputFile": "D:\\AndroidProjects\\Projects\\Prajjawala-1\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-watch-v21\\values-watch-v21.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\rahul\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\c7e0cb47334215509923abc879b4e0dd\\res\\values-watch-v21\\values-watch-v21.xml",
+                    "source": "C:\\Users\\Harsh Mantri\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\4fcda6946e4dd967e440b3ba0d5f2475\\res\\values-watch-v21\\values-watch-v21.xml",
                     "from": {
                         "startLines": "2,6,10",
                         "startColumns": "4,4,4",

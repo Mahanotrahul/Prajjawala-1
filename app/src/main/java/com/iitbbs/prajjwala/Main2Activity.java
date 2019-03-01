@@ -17,6 +17,8 @@ import android.view.Menu;
 import android.view.MenuItem;
 import android.view.WindowManager;
 
+import com.facebook.drawee.backends.pipeline.Fresco;
+
 public class Main2Activity extends AppCompatActivity {
 
     @Override

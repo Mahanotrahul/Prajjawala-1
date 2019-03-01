@@ -34,4 +34,6 @@ dependencies {
 
     implementation 'de.hdodenhof:circleimageview:1.2.1'
     implementation 'com.google.maps:google-maps-services:0.1.20'
+
+    implementation 'com.facebook.fresco:fresco:1.12.1'
 }

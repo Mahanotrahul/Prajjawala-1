@@ -5,7 +5,9 @@ import android.content.Context;
 import android.content.DialogInterface;
 import android.content.Intent;
 import android.content.SharedPreferences;
+import android.graphics.Bitmap;
 import android.graphics.Color;
+import android.graphics.drawable.BitmapDrawable;
 import android.net.ConnectivityManager;
 import android.net.NetworkInfo;
 import android.os.AsyncTask;
@@ -26,8 +28,12 @@ import android.widget.Button;
 import android.widget.CheckBox;
 import android.widget.CompoundButton;
 import android.widget.EditText;
+import android.widget.ImageView;
 import android.widget.TextView;
 import android.widget.Toast;
+
+import com.facebook.drawee.backends.pipeline.Fresco;
+import com.facebook.drawee.view.SimpleDraweeView;
 
 import org.json.JSONObject;
 
@@ -50,6 +56,7 @@ public class Main3Activity extends AppCompatActivity {
     boolean success = false;
     public TextView forgot_password;
     CheckBox show_password;
+    ImageView image;
 
     String retailerName = null;
     String retailerId = null;
@@ -59,6 +66,7 @@ public class Main3Activity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
+        Fresco.initialize(this);
         setContentView(R.layout.activity_main3);
         getWindow().setFlags(WindowManager.LayoutParams.FLAG_FULLSCREEN,
                 WindowManager.LayoutParams.FLAG_FULLSCREEN);
@@ -68,6 +76,11 @@ public class Main3Activity extends AppCompatActivity {
         loginb = (Button) findViewById(R.id.login_button);
         show_password = (CheckBox) findViewById(R.id.show_hide_password);
         forgot_password = (TextView) findViewById(R.id.forgotPassword);
+        image = (ImageView) findViewById(R.id.logo);
+        Bitmap d = ((BitmapDrawable)image.getDrawable()).getBitmap();
+        int nh = (int) ( d.getHeight() * (512.0 / d.getWidth()) );
+        Bitmap scaled = Bitmap.createScaledBitmap(d, 512, nh, true);
+        image.setImageBitmap(scaled);
 
         forgot_password.setOnClickListener(new View.OnClickListener() {
             @Override
