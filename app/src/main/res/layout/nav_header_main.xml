@@ -10,7 +10,8 @@
     android:paddingTop="@dimen/activity_vertical_margin"
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingBottom="@dimen/activity_vertical_margin"
-    android:theme="@style/ThemeOverlay.AppCompat.Dark">
+    android:theme="@style/ThemeOverlay.AppCompat.Dark"
+    >
 
     <ImageView
         android:id="@+id/imageView"
@@ -29,13 +30,13 @@
         android:textAppearance="@style/TextAppearance.AppCompat.Body1"
         android:textColor="#fff"
         android:textSize="18sp"
-        android:textStyle="bold" />
+        android:textStyle="bold"
+        android:id="@+id/nav_user_name"/>
 
     <TextView
-        android:id="@+id/textView"
+        android:id="@+id/nav_header_text_view"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="gm13@iitbbs.ac.in"
         android:fontFamily="@font/basic"
         android:textColor="#fff"
         android:textSize="14sp"

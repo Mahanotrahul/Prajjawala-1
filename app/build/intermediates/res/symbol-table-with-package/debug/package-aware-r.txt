@@ -27,6 +27,7 @@ animator mtrl_fab_hide_motion_spec
 animator mtrl_fab_show_motion_spec
 animator mtrl_fab_transformation_sheet_collapse_spec
 animator mtrl_fab_transformation_sheet_expand_spec
+array array
 array com_google_android_gms_fonts_certs
 array com_google_android_gms_fonts_certs_dev
 array com_google_android_gms_fonts_certs_prod
@@ -1099,6 +1100,7 @@ drawable bgbellc
 drawable bglocationc
 drawable bgphonec
 drawable bgrupeee
+drawable buttonstyles
 drawable buttonstylethree
 drawable casual
 drawable common_full_open_on_phone
@@ -1178,11 +1180,16 @@ drawable prajjawala
 drawable profilee
 drawable reshedule
 drawable side_nav_bar
+drawable spinner
 drawable subscription
 drawable tampering
 drawable textviewstyle
 drawable tooltip_frame_dark
 drawable tooltip_frame_light
+drawable white_call
+drawable white_location
+drawable white_notification
+drawable white_ruppe
 font basic
 id ALT
 id CTRL
@@ -1190,6 +1197,7 @@ id FUNCTION
 id META
 id SHIFT
 id SYM
+id aadhar
 id action0
 id action_bar
 id action_bar_activity_content
@@ -1238,6 +1246,15 @@ id chronometer
 id clip_horizontal
 id clip_vertical
 id collapseActionView
+id consumer_aadhar_number
+id consumer_city
+id consumer_dob
+id consumer_id
+id consumer_name
+id consumer_ph_number
+id consumer_retailer_id
+id consumer_state
+id consumer_user_name
 id container
 id content
 id contentPanel
@@ -1309,7 +1326,6 @@ id iv0
 id iv1
 id iv2
 id iv3
-id iv4
 id iv5
 id labeled
 id largeLabel
@@ -1335,6 +1351,7 @@ id multiply
 id nav_customercare
 id nav_dealer
 id nav_gas
+id nav_header_text_view
 id nav_home
 id nav_log_out
 id nav_maps
@@ -1343,6 +1360,7 @@ id nav_recharge
 id nav_subs
 id nav_tamper
 id nav_usage
+id nav_user_name
 id nav_view
 id navigation_header_container
 id never
@@ -1358,12 +1376,16 @@ id parent
 id parentPanel
 id parent_matrix
 id password_login
+id password_recharge
 id pb
 id percent
 id pin
+id profile_image
 id progress_circular
 id progress_horizontal
 id radio
+id recharge_button
+id reset_button
 id right
 id right_icon
 id right_side
@@ -1371,7 +1393,6 @@ id rl1
 id rv0
 id rv2
 id rv3
-id rv4
 id satellite
 id save_image_matrix
 id save_non_transition_alpha
@@ -1405,6 +1426,7 @@ id snackbar_text
 id snap
 id snapMargins
 id spacer
+id spinner
 id split_action_bar
 id spread
 id spread_inside
@@ -1457,8 +1479,6 @@ id tv18
 id tv19
 id tv20
 id tv21
-id tv22
-id tv23
 id tv24
 id tv25
 id tv26
@@ -1476,7 +1496,6 @@ id tv39
 id tv40
 id tv41
 id tv5
-id tv50
 id tv52
 id tv53
 id tv54
@@ -1577,6 +1596,7 @@ layout fragment_blank_fragment5
 layout fragment_blank_fragment6
 layout fragment_blank_fragment7
 layout fragment_blank_fragment8
+layout fragment_recharge
 layout mtrl_layout_snackbar
 layout mtrl_layout_snackbar_include
 layout nav_header_main
@@ -2260,6 +2280,7 @@ style Widget_MaterialComponents_TextInputLayout_OutlinedBox
 style Widget_MaterialComponents_TextInputLayout_OutlinedBox_Dense
 style Widget_MaterialComponents_Toolbar
 style Widget_Support_CoordinatorLayout
+style mySpinnerItemStyle
 styleable ActionBar background backgroundSplit backgroundStacked contentInsetEnd contentInsetEndWithActions contentInsetLeft contentInsetRight contentInsetStart contentInsetStartWithNavigation customNavigationLayout displayOptions divider elevation height hideOnContentScroll homeAsUpIndicator homeLayout icon indeterminateProgressStyle itemPadding logo navigationMode popupTheme progressBarPadding progressBarStyle subtitle subtitleTextStyle title titleTextStyle
 styleable ActionBarLayout android_layout_gravity
 styleable ActionMenuItemView android_minWidth

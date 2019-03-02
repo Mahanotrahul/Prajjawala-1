@@ -85,6 +85,14 @@
     <string name="back">BACK</string>
     <string name="forgot_password_msg">We just need your registered Email Id to send you password reset instructions</string>
     <string name="title_activity_forgot_password">forgotPasswordActivity</string>
+    <string-array name="array">
+        <item>10/-</item>
+        <item>20/-</item>
+        <item>50/-</item>
+        <item>100/-</item>
+        <item>500/-</item>
+    </string-array>
+
 
 
 </resources>
