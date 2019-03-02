@@ -205,8 +205,8 @@ public class Main3Activity extends AppCompatActivity {
 
                 String link = "https://vasitars.com/old/prajjawala/APP/forgot_password.php";
                 URL url = new URL(link);
-                String user = username.getText().toString();
-                String passcode = password.getText().toString();
+                @SuppressLint("WrongThread") String user = username.getText().toString();
+                @SuppressLint("WrongThread") String passcode = password.getText().toString();
 
                 String emailId = m_Text.toString();
 
