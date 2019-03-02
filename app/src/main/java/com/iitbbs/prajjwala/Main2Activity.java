@@ -37,8 +37,10 @@ public class Main2Activity extends AppCompatActivity {
                 Log.d("Check", preferences.getString("UserName", ""));
                 if(preferences.contains("UserName")){
                     i = new Intent(getApplicationContext(), MainActivity.class);
+                    i.setFlags(Intent.FLAG_ACTIVITY_NEW_TASK | Intent.FLAG_ACTIVITY_CLEAR_TASK | Intent.FLAG_ACTIVITY_CLEAR_TOP);
                 }else{
                     i = new Intent(getApplicationContext(), Main3Activity.class);
+                    i.setFlags(Intent.FLAG_ACTIVITY_NEW_TASK | Intent.FLAG_ACTIVITY_CLEAR_TASK | Intent.FLAG_ACTIVITY_CLEAR_TOP);
                 }
 
                 startActivity(i);
