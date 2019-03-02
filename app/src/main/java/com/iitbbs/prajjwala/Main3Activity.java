@@ -57,6 +57,7 @@ public class Main3Activity extends AppCompatActivity {
     public TextView forgot_password;
     CheckBox show_password;
     ImageView image;
+    String consumerName, consumerID, consumerDob, consumerPhone, consumerAadhar, consumerCity, consumerState, consumerUsername, consumerRetailer;
 
     String retailerName = null;
     String retailerId = null;
@@ -238,8 +239,8 @@ public class Main3Activity extends AppCompatActivity {
                         success = true;
                     }
 
-                    String name_retailer = returned_values.getString("RETAILER_NAME");
-                    return name_retailer;
+                    consumerName = returned_values.getString("NAME");
+                    return consumerName;
                     //Log.i("huhu",name_retailer);
                     //Toast.makeText(getApplicationContext(),"you are "+name_retailer,Toast.LENGTH_LONG).show();
                 } catch (Exception e) {
@@ -267,10 +268,10 @@ public class Main3Activity extends AppCompatActivity {
             BufferedReader reader = null;
             try {
 
-                String link = "https://vasitars.com/old/prajjawala/APP/connect.php";
+                String link = "https://vasitars.com/old/prajjawala/Consumer_Portal/APP/Consumer_login.php";
                 URL url = new URL(link);
-                String user = username.getText().toString();
-                String passcode = password.getText().toString();
+                @SuppressLint("WrongThread") String user = username.getText().toString();
+                @SuppressLint("WrongThread") String passcode = password.getText().toString();
 
                 String data = URLEncoder.encode("Username", "UTF-8")
                         + "=" + URLEncoder.encode(user, "UTF-8");
@@ -302,8 +303,18 @@ public class Main3Activity extends AppCompatActivity {
                         success = true;
                     }
 
-                    String name_retailer = returned_values.getString("RETAILER_NAME");
-                    return name_retailer;
+                    consumerName = returned_values.getString("NAME");
+                    Log.d("name", consumerName);
+
+                    consumerID = returned_values.getString("CONSUMER_ID");
+                    consumerDob = returned_values.getString("DOB");
+                    consumerPhone = returned_values.getString("PHONE_NUMBER");
+                    consumerAadhar = returned_values.getString("AADHAR_NUMBER");
+                    consumerCity = returned_values.getString("CITY");
+                    consumerState = returned_values.getString("STATE");
+                    consumerUsername = returned_values.getString("USERNAME");
+                    consumerRetailer = returned_values.getString("RETAILER_ID");
+                    return consumerName;
                     //Log.i("huhu",name_retailer);
                     //Toast.makeText(getApplicationContext(),"you are "+name_retailer,Toast.LENGTH_LONG).show();
                 } catch (Exception e) {
@@ -327,6 +338,16 @@ public class Main3Activity extends AppCompatActivity {
                         Intent intent = new Intent(getApplicationContext(),MainActivity.class);
                 SharedPreferences preferences = getSharedPreferences("MyPreferences", Context.MODE_PRIVATE);
                 SharedPreferences.Editor editor = preferences.edit();
+                editor.putString("consumerName", consumerName);
+                Log.d("checkName", consumerName);
+                editor.putString("consumerID", consumerID);
+                editor.putString("consumerDob", consumerDob);
+                editor.putString("consumerPhone", consumerPhone);
+                editor.putString("consumerAadhar", consumerAadhar);
+                editor.putString("consumerCity", consumerCity);
+                editor.putString("consumerState", consumerState);
+                editor.putString("consumerUsername", consumerUsername);
+                editor.putString("consumerRetailer", consumerRetailer);
                 editor.putString("UserName", username.getText().toString());
                 editor.putString("Password", password.getText().toString());
                 editor.commit();

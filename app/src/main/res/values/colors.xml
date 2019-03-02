@@ -1,10 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <color name="colorPrimary">#00bfff</color>
-    <color name="colorPrimaryDark">#02070b</color>
+    <color name="colorPrimary">#424242</color>
+    <color name="colorPrimaryDark">#455a64</color>
     <color name="colorAccent">#D81B60</color>
-    <color name="tintone">#2196f3</color>
-
+    <color name="tintone">#9FC6E0</color>
     <color name="colorImage">#ececec</color>
     <color name="colorAppBar">#efebe9</color>
     <color name="black">#FF000000</color>
