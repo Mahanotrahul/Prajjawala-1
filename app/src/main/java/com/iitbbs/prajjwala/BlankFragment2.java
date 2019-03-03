@@ -37,7 +37,7 @@ public class BlankFragment2 extends Fragment {
         consumerAadhar.setText(preferences.getString("consumerAadhar", "Aadhar"));
         consumerCity.setText(preferences.getString("consumerCity", "Bhubaneswar"));
         consumerState.setText(preferences.getString("consumerState", "Odisha"));
-        consumerUsername.setText(preferences.getString("consumerUserName", "user name"));
+        consumerUsername.setText(preferences.getString("UserName", "user name"));
         consumerRetailer.setText(preferences.getString("consumerRetailer", "retailer id"));
         return view;
     }

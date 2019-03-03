@@ -23,6 +23,7 @@ import android.widget.CheckBox;
 import android.widget.CompoundButton;
 import android.widget.EditText;
 import android.widget.Spinner;
+import android.widget.Toast;
 
 import java.io.BufferedReader;
 import java.io.InputStreamReader;
@@ -210,13 +211,12 @@ public class rechargeFragment extends Fragment {
                 }*/
 
 
-
+             return line;
             }
             catch(Exception e) {
                 e.printStackTrace();
+                return "Unable to recharge!";
             }
-
-            return "incomplete!";
         }
 
         @Override
@@ -231,7 +231,7 @@ public class rechargeFragment extends Fragment {
         try {
 
             String output = new rechargeFragment.Connectionthread().execute().get();
-
+            Toast.makeText(getActivity(), output, Toast.LENGTH_SHORT).show();
             //Log.i("BHAINA",status);
         }
         catch(Exception e) {
@@ -242,16 +242,10 @@ public class rechargeFragment extends Fragment {
     }
 
     private void reset(){
-        consumer_id.setText("");
-
-        phone_no.setText("");
-
         aadhaar_no.setText("");
 
         password_recharge.setText("");
 
         recharge_amt.setSelection(0);
-
-        consumer_id.requestFocus();
     }
 }
