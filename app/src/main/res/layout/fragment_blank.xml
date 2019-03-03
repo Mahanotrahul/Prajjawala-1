@@ -13,7 +13,9 @@
 
 <LinearLayout
     android:layout_width="match_parent"
-    android:layout_height="match_parent">
+    android:layout_height="match_parent"
+    android:weightSum="10"
+    android:orientation="vertical">
 
         <RelativeLayout
             android:layout_width="match_parent"
@@ -40,7 +42,7 @@
                     android:layout_alignParentLeft="true"
                     android:layout_alignParentTop="true"
                     android:layout_marginLeft="40dp"
-                    android:text="Customer ID : "
+                    android:text="Consumer ID : "
                     android:textColor="@color/colorPrimary"
                     android:textSize="17sp"
                     app:fontFamily="@font/basic" />
@@ -53,7 +55,7 @@
                     android:layout_alignEnd="@+id/tv16"
                     android:layout_alignRight="@+id/tv16"
                     android:layout_marginTop="5dp"
-                    android:text="Customer Name : "
+                    android:text="Consumer Name : "
                     android:textColor="@color/colorPrimary"
                     android:textSize="17sp"
                     app:fontFamily="@font/basic" />
@@ -199,7 +201,7 @@
                     android:layout_alignStart="@+id/tv6"
                     android:layout_alignLeft="@+id/tv6"
                     android:layout_marginTop="25dp"
-                    android:text="@string/cr_weight"
+                    android:text="Left :"
                     android:textColor="#FF090808"
                     android:textSize="16sp"
                     app:fontFamily="@font/basic"/>
@@ -237,7 +239,7 @@
                     android:layout_alignBottom="@+id/tv8"
                     android:layout_alignLeft="@+id/tv9"
                     android:layout_marginLeft="50dp"
-                    android:text="@string/_14_20_kg"
+                    android:text="14.00 Kg"
                     android:textColor="@color/colorPrimaryDark"
                     android:textSize="16sp"
                     android:textStyle="bold"
@@ -263,7 +265,7 @@
                     android:layout_alignStart="@+id/tv10"
                     android:layout_alignLeft="@+id/tv10"
                     android:layout_alignBottom="@+id/tv6"
-                    android:text="@string/_15_30_kg"
+                    android:text="15.2 Kg"
                     android:textColor="@color/colorPrimaryDark"
                     android:textSize="16sp"
                     android:textStyle="bold"

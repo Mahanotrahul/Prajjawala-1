@@ -1,11 +1,12 @@
 -- Merging decision tree log ---
 manifest
-ADDED from C:\Users\m chaitanya\Documents\Android workspace\PrajjawalaEdit\app\src\main\AndroidManifest.xml:2:1-67:12
-INJECTED from C:\Users\m chaitanya\Documents\Android workspace\PrajjawalaEdit\app\src\main\AndroidManifest.xml:2:1-67:12
-INJECTED from C:\Users\m chaitanya\Documents\Android workspace\PrajjawalaEdit\app\src\main\AndroidManifest.xml:2:1-67:12
-INJECTED from C:\Users\m chaitanya\Documents\Android workspace\PrajjawalaEdit\app\src\main\AndroidManifest.xml:2:1-67:12
+ADDED from C:\Users\m chaitanya\Documents\Android workspace\PrajjawalaEdit\app\src\main\AndroidManifest.xml:2:1-71:12
+INJECTED from C:\Users\m chaitanya\Documents\Android workspace\PrajjawalaEdit\app\src\main\AndroidManifest.xml:2:1-71:12
+INJECTED from C:\Users\m chaitanya\Documents\Android workspace\PrajjawalaEdit\app\src\main\AndroidManifest.xml:2:1-71:12
+INJECTED from C:\Users\m chaitanya\Documents\Android workspace\PrajjawalaEdit\app\src\main\AndroidManifest.xml:2:1-71:12
 MERGED from [com.android.support:design:28.0.0] C:\Users\m chaitanya\.gradle\caches\transforms-1\files-1.1\design-28.0.0.aar\61022ffc8ecce71d8ac5063e0043969f\AndroidManifest.xml:17:1-24:12
 MERGED from [com.android.support:appcompat-v7:28.0.0] C:\Users\m chaitanya\.gradle\caches\transforms-1\files-1.1\appcompat-v7-28.0.0.aar\5a9405b7fd55a5a776da5c979ebd62bd\AndroidManifest.xml:17:1-22:12
+MERGED from [com.jjoe64:graphview:4.2.2] C:\Users\m chaitanya\.gradle\caches\transforms-1\files-1.1\graphview-4.2.2.aar\7483bff22d4a5b3de4bab9cd7cef9102\AndroidManifest.xml:2:1-14:12
 MERGED from [com.google.android.gms:play-services-maps:16.1.0] C:\Users\m chaitanya\.gradle\caches\transforms-1\files-1.1\play-services-maps-16.1.0.aar\5733da5ae5d5d81501ec633aa0dfe58a\AndroidManifest.xml:17:1-38:12
 MERGED from [com.google.android.gms:play-services-location:16.0.0] C:\Users\m chaitanya\.gradle\caches\transforms-1\files-1.1\play-services-location-16.0.0.aar\4fa6d21bc7cb41961ce85b9bda29eab2\AndroidManifest.xml:2:1-9:12
 MERGED from [com.google.android.gms:play-services-base:16.0.1] C:\Users\m chaitanya\.gradle\caches\transforms-1\files-1.1\play-services-base-16.0.1.aar\7db9453ba37144bf45b1f0a545492b16\AndroidManifest.xml:17:1-29:12
@@ -15,8 +16,10 @@ MERGED from [com.google.android.gms:play-services-basement:16.0.1] C:\Users\m ch
 MERGED from [com.android.support:support-v4:28.0.0] C:\Users\m chaitanya\.gradle\caches\transforms-1\files-1.1\support-v4-28.0.0.aar\23eaffa20d2e045953779f6edb95a6c7\AndroidManifest.xml:17:1-22:12
 MERGED from [com.android.support.constraint:constraint-layout:1.1.3] C:\Users\m chaitanya\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.1.3.aar\c0a92f1c10f241e9804fb8451d92828a\AndroidManifest.xml:2:1-11:12
 MERGED from [com.android.support:cardview-v7:28.0.0] C:\Users\m chaitanya\.gradle\caches\transforms-1\files-1.1\cardview-v7-28.0.0.aar\9553a5b620fd5c02c97bc3a6d37459f7\AndroidManifest.xml:17:1-22:12
+MERGED from [pl.droidsonroids.gif:android-gif-drawable:1.2.10] C:\Users\m chaitanya\.gradle\caches\transforms-1\files-1.1\android-gif-drawable-1.2.10.aar\5f38dbdda2311df8b0f26fe119d88dbb\AndroidManifest.xml:2:1-11:12
 MERGED from [de.hdodenhof:circleimageview:1.2.1] C:\Users\m chaitanya\.gradle\caches\transforms-1\files-1.1\circleimageview-1.2.1.aar\fc07e761a65dbf9ada90261e35bbffc8\AndroidManifest.xml:2:1-11:12
 MERGED from [com.facebook.fresco:fresco:1.12.1] C:\Users\m chaitanya\.gradle\caches\transforms-1\files-1.1\fresco-1.12.1.aar\68b94c18fe40e5601b659a5613e086fa\AndroidManifest.xml:2:1-9:12
+MERGED from [com.wang.avi:library:2.1.3] C:\Users\m chaitanya\.gradle\caches\transforms-1\files-1.1\library-2.1.3.aar\815660bf78d6d869c5260d0673874783\AndroidManifest.xml:2:1-11:12
 MERGED from [com.android.support:support-fragment:28.0.0] C:\Users\m chaitanya\.gradle\caches\transforms-1\files-1.1\support-fragment-28.0.0.aar\d3070fc332cee27991523bf9490f4c32\AndroidManifest.xml:17:1-22:12
 MERGED from [com.android.support:animated-vector-drawable:28.0.0] C:\Users\m chaitanya\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-28.0.0.aar\8c86aa683283711aaf7b6b82b1085ffd\AndroidManifest.xml:17:1-22:12
 MERGED from [com.android.support:recyclerview-v7:28.0.0] C:\Users\m chaitanya\.gradle\caches\transforms-1\files-1.1\recyclerview-v7-28.0.0.aar\c012c5ba53369018208d39f6fadb5250\AndroidManifest.xml:17:1-22:12
@@ -52,20 +55,20 @@ MERGED from [com.facebook.fresco:nativeimagetranscoder:1.12.1] C:\Users\m chaita
 MERGED from [com.facebook.fresco:imagepipeline-base:1.12.1] C:\Users\m chaitanya\.gradle\caches\transforms-1\files-1.1\imagepipeline-base-1.12.1.aar\6d3eca122a00a0b10ba1d40707b9e1da\AndroidManifest.xml:2:1-9:12
 MERGED from [com.facebook.fresco:fbcore:1.12.1] C:\Users\m chaitanya\.gradle\caches\transforms-1\files-1.1\fbcore-1.12.1.aar\ffac4d6f02a53ace2351395d5ea0ae3d\AndroidManifest.xml:2:1-9:12
 MERGED from [com.facebook.soloader:soloader:0.6.0] C:\Users\m chaitanya\.gradle\caches\transforms-1\files-1.1\soloader-0.6.0.aar\7487358549b0f56a17f1177778dd68e8\AndroidManifest.xml:2:1-13:12
-INJECTED from C:\Users\m chaitanya\Documents\Android workspace\PrajjawalaEdit\app\src\main\AndroidManifest.xml:2:1-67:12
-INJECTED from C:\Users\m chaitanya\Documents\Android workspace\PrajjawalaEdit\app\src\main\AndroidManifest.xml:2:1-67:12
-INJECTED from C:\Users\m chaitanya\Documents\Android workspace\PrajjawalaEdit\app\src\main\AndroidManifest.xml:2:1-67:12
+INJECTED from C:\Users\m chaitanya\Documents\Android workspace\PrajjawalaEdit\app\src\main\AndroidManifest.xml:2:1-71:12
+INJECTED from C:\Users\m chaitanya\Documents\Android workspace\PrajjawalaEdit\app\src\main\AndroidManifest.xml:2:1-71:12
+INJECTED from C:\Users\m chaitanya\Documents\Android workspace\PrajjawalaEdit\app\src\main\AndroidManifest.xml:2:1-71:12
 	package
 		ADDED from C:\Users\m chaitanya\Documents\Android workspace\PrajjawalaEdit\app\src\main\AndroidManifest.xml:3:5-35
 		INJECTED from C:\Users\m chaitanya\Documents\Android workspace\PrajjawalaEdit\app\src\main\AndroidManifest.xml
 		INJECTED from C:\Users\m chaitanya\Documents\Android workspace\PrajjawalaEdit\app\src\main\AndroidManifest.xml
 	android:versionName
 		INJECTED from C:\Users\m chaitanya\Documents\Android workspace\PrajjawalaEdit\app\src\main\AndroidManifest.xml
-		ADDED from C:\Users\m chaitanya\Documents\Android workspace\PrajjawalaEdit\app\src\main\AndroidManifest.xml:2:1-67:12
+		ADDED from C:\Users\m chaitanya\Documents\Android workspace\PrajjawalaEdit\app\src\main\AndroidManifest.xml:2:1-71:12
 		INJECTED from C:\Users\m chaitanya\Documents\Android workspace\PrajjawalaEdit\app\src\main\AndroidManifest.xml
 	android:versionCode
 		INJECTED from C:\Users\m chaitanya\Documents\Android workspace\PrajjawalaEdit\app\src\main\AndroidManifest.xml
-		ADDED from C:\Users\m chaitanya\Documents\Android workspace\PrajjawalaEdit\app\src\main\AndroidManifest.xml:2:1-67:12
+		ADDED from C:\Users\m chaitanya\Documents\Android workspace\PrajjawalaEdit\app\src\main\AndroidManifest.xml:2:1-71:12
 		INJECTED from C:\Users\m chaitanya\Documents\Android workspace\PrajjawalaEdit\app\src\main\AndroidManifest.xml
 	xmlns:android
 		ADDED from C:\Users\m chaitanya\Documents\Android workspace\PrajjawalaEdit\app\src\main\AndroidManifest.xml:2:11-69
@@ -93,10 +96,16 @@ uses-permission#android.permission.ACCESS_WIFI_STATE
 ADDED from C:\Users\m chaitanya\Documents\Android workspace\PrajjawalaEdit\app\src\main\AndroidManifest.xml:13:5-76
 	android:name
 		ADDED from C:\Users\m chaitanya\Documents\Android workspace\PrajjawalaEdit\app\src\main\AndroidManifest.xml:13:22-73
+uses-permission#android.permission.CALL_PHONE
+ADDED from C:\Users\m chaitanya\Documents\Android workspace\PrajjawalaEdit\app\src\main\AndroidManifest.xml:14:5-68
+	android:name
+		ADDED from C:\Users\m chaitanya\Documents\Android workspace\PrajjawalaEdit\app\src\main\AndroidManifest.xml:14:22-66
 application
-ADDED from C:\Users\m chaitanya\Documents\Android workspace\PrajjawalaEdit\app\src\main\AndroidManifest.xml:16:5-65:19
+ADDED from C:\Users\m chaitanya\Documents\Android workspace\PrajjawalaEdit\app\src\main\AndroidManifest.xml:17:5-69:19
 MERGED from [com.android.support:design:28.0.0] C:\Users\m chaitanya\.gradle\caches\transforms-1\files-1.1\design-28.0.0.aar\61022ffc8ecce71d8ac5063e0043969f\AndroidManifest.xml:22:5-20
 MERGED from [com.android.support:design:28.0.0] C:\Users\m chaitanya\.gradle\caches\transforms-1\files-1.1\design-28.0.0.aar\61022ffc8ecce71d8ac5063e0043969f\AndroidManifest.xml:22:5-20
+MERGED from [com.jjoe64:graphview:4.2.2] C:\Users\m chaitanya\.gradle\caches\transforms-1\files-1.1\graphview-4.2.2.aar\7483bff22d4a5b3de4bab9cd7cef9102\AndroidManifest.xml:11:5-12:19
+MERGED from [com.jjoe64:graphview:4.2.2] C:\Users\m chaitanya\.gradle\caches\transforms-1\files-1.1\graphview-4.2.2.aar\7483bff22d4a5b3de4bab9cd7cef9102\AndroidManifest.xml:11:5-12:19
 MERGED from [com.google.android.gms:play-services-maps:16.1.0] C:\Users\m chaitanya\.gradle\caches\transforms-1\files-1.1\play-services-maps-16.1.0.aar\5733da5ae5d5d81501ec633aa0dfe58a\AndroidManifest.xml:30:5-36:19
 MERGED from [com.google.android.gms:play-services-maps:16.1.0] C:\Users\m chaitanya\.gradle\caches\transforms-1\files-1.1\play-services-maps-16.1.0.aar\5733da5ae5d5d81501ec633aa0dfe58a\AndroidManifest.xml:30:5-36:19
 MERGED from [com.google.android.gms:play-services-location:16.0.0] C:\Users\m chaitanya\.gradle\caches\transforms-1\files-1.1\play-services-location-16.0.0.aar\4fa6d21bc7cb41961ce85b9bda29eab2\AndroidManifest.xml:7:5-20
@@ -122,75 +131,81 @@ MERGED from [com.facebook.soloader:soloader:0.6.0] C:\Users\m chaitanya\.gradle\
 	android:appComponentFactory
 		ADDED from [com.android.support:support-compat:28.0.0] C:\Users\m chaitanya\.gradle\caches\transforms-1\files-1.1\support-compat-28.0.0.aar\76231cc582bd0d92541004197183ebd6\AndroidManifest.xml:22:18-91
 	android:supportsRtl
-		ADDED from C:\Users\m chaitanya\Documents\Android workspace\PrajjawalaEdit\app\src\main\AndroidManifest.xml:21:9-35
+		ADDED from C:\Users\m chaitanya\Documents\Android workspace\PrajjawalaEdit\app\src\main\AndroidManifest.xml:22:9-35
 	android:label
-		ADDED from C:\Users\m chaitanya\Documents\Android workspace\PrajjawalaEdit\app\src\main\AndroidManifest.xml:19:9-41
+		ADDED from C:\Users\m chaitanya\Documents\Android workspace\PrajjawalaEdit\app\src\main\AndroidManifest.xml:20:9-41
 	android:roundIcon
-		ADDED from C:\Users\m chaitanya\Documents\Android workspace\PrajjawalaEdit\app\src\main\AndroidManifest.xml:20:9-54
+		ADDED from C:\Users\m chaitanya\Documents\Android workspace\PrajjawalaEdit\app\src\main\AndroidManifest.xml:21:9-54
 	android:largeHeap
-		ADDED from C:\Users\m chaitanya\Documents\Android workspace\PrajjawalaEdit\app\src\main\AndroidManifest.xml:24:9-33
+		ADDED from C:\Users\m chaitanya\Documents\Android workspace\PrajjawalaEdit\app\src\main\AndroidManifest.xml:25:9-33
 	android:icon
-		ADDED from C:\Users\m chaitanya\Documents\Android workspace\PrajjawalaEdit\app\src\main\AndroidManifest.xml:18:9-43
+		ADDED from C:\Users\m chaitanya\Documents\Android workspace\PrajjawalaEdit\app\src\main\AndroidManifest.xml:19:9-43
 	android:allowBackup
-		ADDED from C:\Users\m chaitanya\Documents\Android workspace\PrajjawalaEdit\app\src\main\AndroidManifest.xml:17:9-35
+		ADDED from C:\Users\m chaitanya\Documents\Android workspace\PrajjawalaEdit\app\src\main\AndroidManifest.xml:18:9-35
 	android:theme
-		ADDED from C:\Users\m chaitanya\Documents\Android workspace\PrajjawalaEdit\app\src\main\AndroidManifest.xml:22:9-40
+		ADDED from C:\Users\m chaitanya\Documents\Android workspace\PrajjawalaEdit\app\src\main\AndroidManifest.xml:23:9-40
 	android:usesCleartextTraffic
-		ADDED from C:\Users\m chaitanya\Documents\Android workspace\PrajjawalaEdit\app\src\main\AndroidManifest.xml:23:9-44
+		ADDED from C:\Users\m chaitanya\Documents\Android workspace\PrajjawalaEdit\app\src\main\AndroidManifest.xml:24:9-44
 activity#com.iitbbs.prajjwala.Main2Activity
-ADDED from C:\Users\m chaitanya\Documents\Android workspace\PrajjawalaEdit\app\src\main\AndroidManifest.xml:25:9-34:20
+ADDED from C:\Users\m chaitanya\Documents\Android workspace\PrajjawalaEdit\app\src\main\AndroidManifest.xml:26:9-36:20
+	android:screenOrientation
+		ADDED from C:\Users\m chaitanya\Documents\Android workspace\PrajjawalaEdit\app\src\main\AndroidManifest.xml:30:13-49
 	android:label
-		ADDED from C:\Users\m chaitanya\Documents\Android workspace\PrajjawalaEdit\app\src\main\AndroidManifest.xml:27:13-45
+		ADDED from C:\Users\m chaitanya\Documents\Android workspace\PrajjawalaEdit\app\src\main\AndroidManifest.xml:28:13-45
 	android:theme
-		ADDED from C:\Users\m chaitanya\Documents\Android workspace\PrajjawalaEdit\app\src\main\AndroidManifest.xml:28:13-56
+		ADDED from C:\Users\m chaitanya\Documents\Android workspace\PrajjawalaEdit\app\src\main\AndroidManifest.xml:29:13-56
 	android:name
-		ADDED from C:\Users\m chaitanya\Documents\Android workspace\PrajjawalaEdit\app\src\main\AndroidManifest.xml:26:13-42
+		ADDED from C:\Users\m chaitanya\Documents\Android workspace\PrajjawalaEdit\app\src\main\AndroidManifest.xml:27:13-42
 intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
-ADDED from C:\Users\m chaitanya\Documents\Android workspace\PrajjawalaEdit\app\src\main\AndroidManifest.xml:29:13-33:29
+ADDED from C:\Users\m chaitanya\Documents\Android workspace\PrajjawalaEdit\app\src\main\AndroidManifest.xml:31:13-35:29
 action#android.intent.action.MAIN
-ADDED from C:\Users\m chaitanya\Documents\Android workspace\PrajjawalaEdit\app\src\main\AndroidManifest.xml:30:17-69
+ADDED from C:\Users\m chaitanya\Documents\Android workspace\PrajjawalaEdit\app\src\main\AndroidManifest.xml:32:17-69
 	android:name
-		ADDED from C:\Users\m chaitanya\Documents\Android workspace\PrajjawalaEdit\app\src\main\AndroidManifest.xml:30:25-66
+		ADDED from C:\Users\m chaitanya\Documents\Android workspace\PrajjawalaEdit\app\src\main\AndroidManifest.xml:32:25-66
 category#android.intent.category.LAUNCHER
-ADDED from C:\Users\m chaitanya\Documents\Android workspace\PrajjawalaEdit\app\src\main\AndroidManifest.xml:32:17-77
+ADDED from C:\Users\m chaitanya\Documents\Android workspace\PrajjawalaEdit\app\src\main\AndroidManifest.xml:34:17-77
 	android:name
-		ADDED from C:\Users\m chaitanya\Documents\Android workspace\PrajjawalaEdit\app\src\main\AndroidManifest.xml:32:27-74
+		ADDED from C:\Users\m chaitanya\Documents\Android workspace\PrajjawalaEdit\app\src\main\AndroidManifest.xml:34:27-74
 activity#com.iitbbs.prajjwala.PostTest
-ADDED from C:\Users\m chaitanya\Documents\Android workspace\PrajjawalaEdit\app\src\main\AndroidManifest.xml:35:9-55
+ADDED from C:\Users\m chaitanya\Documents\Android workspace\PrajjawalaEdit\app\src\main\AndroidManifest.xml:37:9-55
 	android:name
-		ADDED from C:\Users\m chaitanya\Documents\Android workspace\PrajjawalaEdit\app\src\main\AndroidManifest.xml:35:19-43
+		ADDED from C:\Users\m chaitanya\Documents\Android workspace\PrajjawalaEdit\app\src\main\AndroidManifest.xml:37:19-43
 activity#com.iitbbs.prajjwala.TestingConnection
-ADDED from C:\Users\m chaitanya\Documents\Android workspace\PrajjawalaEdit\app\src\main\AndroidManifest.xml:36:9-64
+ADDED from C:\Users\m chaitanya\Documents\Android workspace\PrajjawalaEdit\app\src\main\AndroidManifest.xml:38:9-64
 	android:name
-		ADDED from C:\Users\m chaitanya\Documents\Android workspace\PrajjawalaEdit\app\src\main\AndroidManifest.xml:36:19-52
+		ADDED from C:\Users\m chaitanya\Documents\Android workspace\PrajjawalaEdit\app\src\main\AndroidManifest.xml:38:19-52
 activity#com.iitbbs.prajjwala.MapsActivity
-ADDED from C:\Users\m chaitanya\Documents\Android workspace\PrajjawalaEdit\app\src\main\AndroidManifest.xml:47:9-53:20
+ADDED from C:\Users\m chaitanya\Documents\Android workspace\PrajjawalaEdit\app\src\main\AndroidManifest.xml:49:9-55:20
 	android:label
-		ADDED from C:\Users\m chaitanya\Documents\Android workspace\PrajjawalaEdit\app\src\main\AndroidManifest.xml:49:13-56
+		ADDED from C:\Users\m chaitanya\Documents\Android workspace\PrajjawalaEdit\app\src\main\AndroidManifest.xml:51:13-56
 	android:name
-		ADDED from C:\Users\m chaitanya\Documents\Android workspace\PrajjawalaEdit\app\src\main\AndroidManifest.xml:48:13-41
+		ADDED from C:\Users\m chaitanya\Documents\Android workspace\PrajjawalaEdit\app\src\main\AndroidManifest.xml:50:13-41
 meta-data#com.google.android.geo.API_KEY
-ADDED from C:\Users\m chaitanya\Documents\Android workspace\PrajjawalaEdit\app\src\main\AndroidManifest.xml:50:13-52:59
+ADDED from C:\Users\m chaitanya\Documents\Android workspace\PrajjawalaEdit\app\src\main\AndroidManifest.xml:52:13-54:59
 	android:value
-		ADDED from C:\Users\m chaitanya\Documents\Android workspace\PrajjawalaEdit\app\src\main\AndroidManifest.xml:52:17-56
+		ADDED from C:\Users\m chaitanya\Documents\Android workspace\PrajjawalaEdit\app\src\main\AndroidManifest.xml:54:17-56
 	android:name
-		ADDED from C:\Users\m chaitanya\Documents\Android workspace\PrajjawalaEdit\app\src\main\AndroidManifest.xml:51:17-62
+		ADDED from C:\Users\m chaitanya\Documents\Android workspace\PrajjawalaEdit\app\src\main\AndroidManifest.xml:53:17-62
 activity#com.iitbbs.prajjwala.Main3Activity
-ADDED from C:\Users\m chaitanya\Documents\Android workspace\PrajjawalaEdit\app\src\main\AndroidManifest.xml:54:9-57:59
+ADDED from C:\Users\m chaitanya\Documents\Android workspace\PrajjawalaEdit\app\src\main\AndroidManifest.xml:56:9-60:51
+	android:screenOrientation
+		ADDED from C:\Users\m chaitanya\Documents\Android workspace\PrajjawalaEdit\app\src\main\AndroidManifest.xml:60:13-49
 	android:label
-		ADDED from C:\Users\m chaitanya\Documents\Android workspace\PrajjawalaEdit\app\src\main\AndroidManifest.xml:56:13-57
+		ADDED from C:\Users\m chaitanya\Documents\Android workspace\PrajjawalaEdit\app\src\main\AndroidManifest.xml:58:13-57
 	android:theme
-		ADDED from C:\Users\m chaitanya\Documents\Android workspace\PrajjawalaEdit\app\src\main\AndroidManifest.xml:57:13-56
+		ADDED from C:\Users\m chaitanya\Documents\Android workspace\PrajjawalaEdit\app\src\main\AndroidManifest.xml:59:13-56
 	android:name
-		ADDED from C:\Users\m chaitanya\Documents\Android workspace\PrajjawalaEdit\app\src\main\AndroidManifest.xml:55:13-42
+		ADDED from C:\Users\m chaitanya\Documents\Android workspace\PrajjawalaEdit\app\src\main\AndroidManifest.xml:57:13-42
 activity#com.iitbbs.prajjwala.MainActivity
-ADDED from C:\Users\m chaitanya\Documents\Android workspace\PrajjawalaEdit\app\src\main\AndroidManifest.xml:59:9-62:68
+ADDED from C:\Users\m chaitanya\Documents\Android workspace\PrajjawalaEdit\app\src\main\AndroidManifest.xml:62:9-66:61
+	android:screenOrientation
+		ADDED from C:\Users\m chaitanya\Documents\Android workspace\PrajjawalaEdit\app\src\main\AndroidManifest.xml:66:13-49
 	android:label
-		ADDED from C:\Users\m chaitanya\Documents\Android workspace\PrajjawalaEdit\app\src\main\AndroidManifest.xml:61:13-45
+		ADDED from C:\Users\m chaitanya\Documents\Android workspace\PrajjawalaEdit\app\src\main\AndroidManifest.xml:64:13-45
 	android:theme
-		ADDED from C:\Users\m chaitanya\Documents\Android workspace\PrajjawalaEdit\app\src\main\AndroidManifest.xml:62:13-56
+		ADDED from C:\Users\m chaitanya\Documents\Android workspace\PrajjawalaEdit\app\src\main\AndroidManifest.xml:65:13-56
 	android:name
-		ADDED from C:\Users\m chaitanya\Documents\Android workspace\PrajjawalaEdit\app\src\main\AndroidManifest.xml:60:13-41
+		ADDED from C:\Users\m chaitanya\Documents\Android workspace\PrajjawalaEdit\app\src\main\AndroidManifest.xml:63:13-41
 uses-sdk
 INJECTED from C:\Users\m chaitanya\Documents\Android workspace\PrajjawalaEdit\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from C:\Users\m chaitanya\Documents\Android workspace\PrajjawalaEdit\app\src\main\AndroidManifest.xml
@@ -199,6 +214,8 @@ MERGED from [com.android.support:design:28.0.0] C:\Users\m chaitanya\.gradle\cac
 MERGED from [com.android.support:design:28.0.0] C:\Users\m chaitanya\.gradle\caches\transforms-1\files-1.1\design-28.0.0.aar\61022ffc8ecce71d8ac5063e0043969f\AndroidManifest.xml:20:5-44
 MERGED from [com.android.support:appcompat-v7:28.0.0] C:\Users\m chaitanya\.gradle\caches\transforms-1\files-1.1\appcompat-v7-28.0.0.aar\5a9405b7fd55a5a776da5c979ebd62bd\AndroidManifest.xml:20:5-44
 MERGED from [com.android.support:appcompat-v7:28.0.0] C:\Users\m chaitanya\.gradle\caches\transforms-1\files-1.1\appcompat-v7-28.0.0.aar\5a9405b7fd55a5a776da5c979ebd62bd\AndroidManifest.xml:20:5-44
+MERGED from [com.jjoe64:graphview:4.2.2] C:\Users\m chaitanya\.gradle\caches\transforms-1\files-1.1\graphview-4.2.2.aar\7483bff22d4a5b3de4bab9cd7cef9102\AndroidManifest.xml:7:5-9:41
+MERGED from [com.jjoe64:graphview:4.2.2] C:\Users\m chaitanya\.gradle\caches\transforms-1\files-1.1\graphview-4.2.2.aar\7483bff22d4a5b3de4bab9cd7cef9102\AndroidManifest.xml:7:5-9:41
 MERGED from [com.google.android.gms:play-services-maps:16.1.0] C:\Users\m chaitanya\.gradle\caches\transforms-1\files-1.1\play-services-maps-16.1.0.aar\5733da5ae5d5d81501ec633aa0dfe58a\AndroidManifest.xml:20:5-44
 MERGED from [com.google.android.gms:play-services-maps:16.1.0] C:\Users\m chaitanya\.gradle\caches\transforms-1\files-1.1\play-services-maps-16.1.0.aar\5733da5ae5d5d81501ec633aa0dfe58a\AndroidManifest.xml:20:5-44
 MERGED from [com.google.android.gms:play-services-location:16.0.0] C:\Users\m chaitanya\.gradle\caches\transforms-1\files-1.1\play-services-location-16.0.0.aar\4fa6d21bc7cb41961ce85b9bda29eab2\AndroidManifest.xml:5:5-44
@@ -217,10 +234,14 @@ MERGED from [com.android.support.constraint:constraint-layout:1.1.3] C:\Users\m 
 MERGED from [com.android.support.constraint:constraint-layout:1.1.3] C:\Users\m chaitanya\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.1.3.aar\c0a92f1c10f241e9804fb8451d92828a\AndroidManifest.xml:5:5-7:41
 MERGED from [com.android.support:cardview-v7:28.0.0] C:\Users\m chaitanya\.gradle\caches\transforms-1\files-1.1\cardview-v7-28.0.0.aar\9553a5b620fd5c02c97bc3a6d37459f7\AndroidManifest.xml:20:5-44
 MERGED from [com.android.support:cardview-v7:28.0.0] C:\Users\m chaitanya\.gradle\caches\transforms-1\files-1.1\cardview-v7-28.0.0.aar\9553a5b620fd5c02c97bc3a6d37459f7\AndroidManifest.xml:20:5-44
+MERGED from [pl.droidsonroids.gif:android-gif-drawable:1.2.10] C:\Users\m chaitanya\.gradle\caches\transforms-1\files-1.1\android-gif-drawable-1.2.10.aar\5f38dbdda2311df8b0f26fe119d88dbb\AndroidManifest.xml:7:5-9:41
+MERGED from [pl.droidsonroids.gif:android-gif-drawable:1.2.10] C:\Users\m chaitanya\.gradle\caches\transforms-1\files-1.1\android-gif-drawable-1.2.10.aar\5f38dbdda2311df8b0f26fe119d88dbb\AndroidManifest.xml:7:5-9:41
 MERGED from [de.hdodenhof:circleimageview:1.2.1] C:\Users\m chaitanya\.gradle\caches\transforms-1\files-1.1\circleimageview-1.2.1.aar\fc07e761a65dbf9ada90261e35bbffc8\AndroidManifest.xml:5:5-7:41
 MERGED from [de.hdodenhof:circleimageview:1.2.1] C:\Users\m chaitanya\.gradle\caches\transforms-1\files-1.1\circleimageview-1.2.1.aar\fc07e761a65dbf9ada90261e35bbffc8\AndroidManifest.xml:5:5-7:41
 MERGED from [com.facebook.fresco:fresco:1.12.1] C:\Users\m chaitanya\.gradle\caches\transforms-1\files-1.1\fresco-1.12.1.aar\68b94c18fe40e5601b659a5613e086fa\AndroidManifest.xml:5:5-7:41
 MERGED from [com.facebook.fresco:fresco:1.12.1] C:\Users\m chaitanya\.gradle\caches\transforms-1\files-1.1\fresco-1.12.1.aar\68b94c18fe40e5601b659a5613e086fa\AndroidManifest.xml:5:5-7:41
+MERGED from [com.wang.avi:library:2.1.3] C:\Users\m chaitanya\.gradle\caches\transforms-1\files-1.1\library-2.1.3.aar\815660bf78d6d869c5260d0673874783\AndroidManifest.xml:7:5-9:41
+MERGED from [com.wang.avi:library:2.1.3] C:\Users\m chaitanya\.gradle\caches\transforms-1\files-1.1\library-2.1.3.aar\815660bf78d6d869c5260d0673874783\AndroidManifest.xml:7:5-9:41
 MERGED from [com.android.support:support-fragment:28.0.0] C:\Users\m chaitanya\.gradle\caches\transforms-1\files-1.1\support-fragment-28.0.0.aar\d3070fc332cee27991523bf9490f4c32\AndroidManifest.xml:20:5-44
 MERGED from [com.android.support:support-fragment:28.0.0] C:\Users\m chaitanya\.gradle\caches\transforms-1\files-1.1\support-fragment-28.0.0.aar\d3070fc332cee27991523bf9490f4c32\AndroidManifest.xml:20:5-44
 MERGED from [com.android.support:animated-vector-drawable:28.0.0] C:\Users\m chaitanya\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-28.0.0.aar\8c86aa683283711aaf7b6b82b1085ffd\AndroidManifest.xml:20:5-44

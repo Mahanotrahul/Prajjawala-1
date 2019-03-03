@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">Prajjwala</string>
+    <string name="app_name">Prajjawala</string>
     <string name="navigation_drawer_open">Open navigation drawer</string>
     <string name="navigation_drawer_close">Close navigation drawer</string>
     <string name="nav_header_title">Android Studio</string>
@@ -92,7 +92,6 @@
         <item>100/-</item>
         <item>500/-</item>
     </string-array>
-
 
 
 </resources>

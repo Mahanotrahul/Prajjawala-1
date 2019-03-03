@@ -218,7 +218,7 @@
                 android:layout_weight="4"
                 android:layout_height="wrap_content"
                 android:textSize="18sp"
-                android:text="User Name:"
+                android:text="User E-mail:"
                 android:fontFamily="sans-serif-black"/>
             <TextView
                 android:layout_width="0dp"

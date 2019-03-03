@@ -6,21 +6,15 @@ import android.content.DialogInterface;
 import android.content.Intent;
 import android.content.SharedPreferences;
 import android.graphics.Bitmap;
-import android.graphics.Color;
 import android.graphics.drawable.BitmapDrawable;
 import android.net.ConnectivityManager;
-import android.net.NetworkInfo;
 import android.os.AsyncTask;
 import android.os.Bundle;
-import android.support.design.widget.FloatingActionButton;
-import android.support.design.widget.Snackbar;
 import android.support.v7.app.AlertDialog;
 import android.support.v7.app.AppCompatActivity;
-import android.support.v7.widget.Toolbar;
 import android.text.InputType;
 import android.text.method.HideReturnsTransformationMethod;
 import android.text.method.PasswordTransformationMethod;
-import android.text.util.Linkify;
 import android.util.Log;
 import android.view.View;
 import android.view.WindowManager;
@@ -33,19 +27,16 @@ import android.widget.TextView;
 import android.widget.Toast;
 
 import com.facebook.drawee.backends.pipeline.Fresco;
-import com.facebook.drawee.view.SimpleDraweeView;
 
 import org.json.JSONObject;
 
 import java.io.BufferedReader;
-import java.io.IOException;
 import java.io.InputStreamReader;
 import java.io.OutputStreamWriter;
 import java.net.HttpURLConnection;
 import java.net.InetAddress;
 import java.net.URL;
 import java.net.URLEncoder;
-import java.util.logging.Handler;
 
 public class Main3Activity extends AppCompatActivity {
 
@@ -309,10 +300,11 @@ public class Main3Activity extends AppCompatActivity {
                     consumerID = returned_values.getString("CONSUMER_ID");
                     consumerDob = returned_values.getString("DOB");
                     consumerPhone = returned_values.getString("PHONE_NUMBER");
-                    consumerAadhar = returned_values.getString("AADHAR_NUMBER");
+                    consumerAadhar = returned_values.getString("AADHAAR_NUMBER");
                     consumerCity = returned_values.getString("CITY");
                     consumerState = returned_values.getString("STATE");
                     consumerUsername = returned_values.getString("USERNAME");
+                    Log.d("UserId", consumerUsername);
                     consumerRetailer = returned_values.getString("RETAILER_ID");
                     return consumerName;
                     //Log.i("huhu",name_retailer);
